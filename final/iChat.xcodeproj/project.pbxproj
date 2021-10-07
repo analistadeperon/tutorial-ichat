@@ -11,6 +11,9 @@
 		9C0B9A42270F691D00DF2B5F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B9A41270F691D00DF2B5F /* SignInView.swift */; };
 		9C0B9A44270F692100DF2B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0B9A43270F692100DF2B5F /* Assets.xcassets */; };
 		9C0B9A47270F692100DF2B5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0B9A46270F692100DF2B5F /* Preview Assets.xcassets */; };
+		9C0B9A54270F768900DF2B5F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B9A53270F768900DF2B5F /* SignInViewModel.swift */; };
+		9C0B9A56270F768E00DF2B5F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B9A55270F768E00DF2B5F /* SignUpView.swift */; };
+		9C0B9A58270F769200DF2B5F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B9A57270F769200DF2B5F /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9C0B9A41270F691D00DF2B5F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		9C0B9A43270F692100DF2B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0B9A46270F692100DF2B5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C0B9A53270F768900DF2B5F /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		9C0B9A55270F768E00DF2B5F /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9C0B9A57270F769200DF2B5F /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				9C0B9A3F270F691D00DF2B5F /* iChatApp.swift */,
+				9C0B9A53270F768900DF2B5F /* SignInViewModel.swift */,
+				9C0B9A55270F768E00DF2B5F /* SignUpView.swift */,
+				9C0B9A57270F769200DF2B5F /* SignUpViewModel.swift */,
 				9C0B9A41270F691D00DF2B5F /* SignInView.swift */,
 				9C0B9A43270F692100DF2B5F /* Assets.xcassets */,
 				9C0B9A45270F692100DF2B5F /* Preview Content */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0B9A56270F768E00DF2B5F /* SignUpView.swift in Sources */,
 				9C0B9A42270F691D00DF2B5F /* SignInView.swift in Sources */,
+				9C0B9A58270F769200DF2B5F /* SignUpViewModel.swift in Sources */,
 				9C0B9A40270F691D00DF2B5F /* iChatApp.swift in Sources */,
+				9C0B9A54270F768900DF2B5F /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
